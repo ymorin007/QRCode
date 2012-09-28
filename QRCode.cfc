@@ -18,7 +18,7 @@ chl - The data to encode. Must be URL-encoded.
 	<cffunction name="QRCodeImage" returntype="string" access="public" output="true">
 
 		<cfargument name="linkTo" required="true" hint="URL to link to. ex.: https://bizonbytes.com">
-		<cfargument name="width" required="false" default="150" hint="Must be URL-encoded.">		
+		<cfargument name="width" required="false" default="150" hint="Width of QR Code image">		
 		<cfargument name="destination" required="false" default="/#application.wheels.imagePath#" hint="Where to save your image?">		
 		<cfargument name="filename" required="false" default="qr" hint="Filename without the extension">
 		<cfargument name="showImage" required="false" default="true" type="boolean" hint="Do you want to show the image? No will only save the QR image file">		
@@ -51,7 +51,6 @@ chl - The data to encode. Must be URL-encoded.
 				</cfif>
 
 			</cfif>
-
 
 	</cffunction>
 

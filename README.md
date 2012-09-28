@@ -1,1 +1,1 @@
-See index.cfm on how to use it.
+See index.html on how to use it.

@@ -58,7 +58,7 @@ chl - The data to encode. Must be URL-encoded.
 
 	</cffunction>
 	
-	<cffunction name="fullPathDirectory" hint="Return the full path of the directory" access="private">
+	<cffunction name="fullPathDirectory" hint="Return the full path of the directory">
 	
 		<cfargument name="directory" hint="Directory name" default="" required="false">
 	
